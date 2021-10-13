@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+"""Exercici python per a realitzar el canvi de la compra i que retorni el número de bitllets a retornar."""
 
 import sys
 
@@ -38,4 +39,3 @@ while Diferencia >= 0.5:
 print(Moneda05,"x moneda de 0.5€")
 print("--------------------")
 print("Total de canvi:",(Entregat-Total),"€")
-

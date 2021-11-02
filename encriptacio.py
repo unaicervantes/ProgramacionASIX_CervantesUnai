@@ -45,14 +45,13 @@ def main(clau,frase):
     grup6 = ["t","u","v","w"]
     grup7 = ["x","y","z","."]
     grup8 = ["?","!"]
-    grups = [["a","b","c","d"],["e","f","g","h"],["i","j","k","l"],["m","n","ñ","o"],["p","q","r","s"],["t","u","v","w"],["x","y","z","."]]
+    grups = [["a","b","c","d"],["e","f","g","h"],["i","j","k","l"],["m","n","ñ","o"],["p","q","r","s"],["t","u","v","w"],["x","y","z","."],["?","!"]]
     contador = 0
     posicion = 0
     llista_clau = list(clau)
     #print(llista_clau[0])
 
     for s in llista_clau:
-        
         valor = grups.index("h")
         print(grups[1])
         

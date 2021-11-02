@@ -45,11 +45,18 @@ def main(clau,frase):
     grup6 = ["t","u","v","w"]
     grup7 = ["x","y","z","."]
     grup8 = ["?","!"]
-    grups = [grup1,grup2,grup3,grup4,grup5,grup6,grup7,grup8]
+    grups = [["a","b","c","d"],["e","f","g","h"],["i","j","k","l"],["m","n","ñ","o"],["p","q","r","s"],["t","u","v","w"],["x","y","z","."]]
     contador = 0
     posicion = 0
     llista_clau = list(clau)
-    print(llista_clau[0])
+    #print(llista_clau[0])
+
+    for s in llista_clau:
+        
+        valor = grups.index("h")
+        print(grups[1])
+        
+"""
     while contador != llista_clau[0]:
         letra = grup1[posicion]
         posicion+= 1
@@ -60,7 +67,7 @@ def main(clau,frase):
         if posicion == 4:
             posicion = 0
         print (f"Esto es la posicion después del if {posicion}")
-        print(f"Esto es la letra final {letra}")
+        print(f"Esto es la letra final {letra}")"""
 
 if __name__ == "__main__":
     main(sys.argv[1],sys.argv[2])

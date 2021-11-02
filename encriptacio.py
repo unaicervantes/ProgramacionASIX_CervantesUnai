@@ -44,18 +44,26 @@ def main(clau,frase):
     grup5 = ["p","q","r","s"]
     grup6 = ["t","u","v","w"]
     grup7 = ["x","y","z","."]
-    grup8 = ["?","!"]
-    grups = [["a","b","c","d"],["e","f","g","h"],["i","j","k","l"],["m","n","ñ","o"],["p","q","r","s"],["t","u","v","w"],["x","y","z","."],["?","!"]]
+    grup8 = ["?","!"," "]
+    #grups = [["a","b","c","d"],["e","f","g","h"],["i","j","k","l"],["m","n","ñ","o"],["p","q","r","s"],["t","u","v","w"],["x","y","z","."],["?","!"]]
+    grups = [grup1,grup2,grup3,grup4,grup5,grup6,grup7,grup8]
     contador = 0
     posicion = 0
     llista_clau = list(clau)
+    contador1 = 0
+    contador2 = 0
     #print(llista_clau[0])
-
-    for s in llista_clau:
-        valor = grups.index("h")
-        print(grups[1])
-        
-"""
+    frase_permutada_llista = list(frase_permutada)
+    
+    while contador1 != len(frase_permutada_llista):       
+        for s in range(len(grups)):
+            if frase_permutada_llista[contador2] in grups[s]:
+                grup_final = grups[s]
+                print(f"La {frase_permutada_llista[contador2]} pertany a {grup_final}")
+                contador2+=1
+                contador1+= 1
+                print(contador1)
+                
     while contador != llista_clau[0]:
         letra = grup1[posicion]
         posicion+= 1
@@ -66,7 +74,7 @@ def main(clau,frase):
         if posicion == 4:
             posicion = 0
         print (f"Esto es la posicion después del if {posicion}")
-        print(f"Esto es la letra final {letra}")"""
+        print(f"Esto es la letra final {letra}")
 
 if __name__ == "__main__":
     main(sys.argv[1],sys.argv[2])

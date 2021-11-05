@@ -36,7 +36,8 @@ def main(clau,frase):
     frase_permutada = "".join(frase_permutada)
     #print(frase_permutada)
     frase_permutada = frase_permutada[::-1]
-    #print(frase_permutada)
+    print(frase_permutada)
+    
     grup1 = ["a","b","c","d"]
     grup2 = ["e","f","g","h"]
     grup3 = ["i","j","k","l"]
@@ -55,7 +56,7 @@ def main(clau,frase):
     #print(llista_clau[0])
     frase_permutada_llista = list(frase_permutada)
     
-    while contador1 != len(frase_permutada_llista):       
+    while contador1 != (len(frase_permutada_llista)-1):
         for s in range(len(grups)):
             if frase_permutada_llista[contador2] in grups[s]:
                 grup_final = grups[s]

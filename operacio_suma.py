@@ -25,6 +25,5 @@ def main(sum1, sum2):
     except ValueError as e:
         print(f'"{e}"')
 
-
 if __name__ == "__main__":
     print(main(sys.argv[1], sys.argv[2]))

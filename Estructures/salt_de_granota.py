@@ -28,8 +28,7 @@ def main(inici,final,salt):
     """
     resultat = ''
     if salt == 0:
-        raise ValueError ("El valor del salt no pot ser 0")
-    
+        raise ValueError ("El valor del salt no pot ser 0")   
     if salt >= 1:
         final += 1
     else:

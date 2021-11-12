@@ -2,8 +2,8 @@
 # _*_ coding: utf-8 _*_   
 
 """
-El nostre programa ha d'escriure una seqüència numèrica que comenci amb el número 'inici' i que compti de 'salt' en 'salt' fins al número 'final'
-sense passar-s'hi de llarg.
+Quan l'usuari entri la seva frase, el programa ha de'escriure "El lloro repeteix: <frase escrita per l'usuari>" 
+i ha de tornar a escriure en una altra línia "L'usuari diu: " i tornar a esperar que l'usuari escrigui la seva frase.
 """
 
 __author__ = "Unai Cervantes"  

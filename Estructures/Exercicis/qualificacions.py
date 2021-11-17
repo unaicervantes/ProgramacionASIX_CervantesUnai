@@ -16,10 +16,6 @@ def main():
     nom_modul = None
     nota_acumulada = 0
     comptador_de_moduls = 0
-
-    """
-    
-    """
     while nom_modul != "":
         nom_modul = input("Nom mòdul: ")
         if nom_modul != "":

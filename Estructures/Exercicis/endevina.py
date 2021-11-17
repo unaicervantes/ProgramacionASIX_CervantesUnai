@@ -16,7 +16,6 @@ def main(numero_secret):
     """
     es_endevinat = False
     suposicio_usuari = None
-    print(numero_secret)
     while suposicio_usuari != numero_secret:
         suposicio_usuari = input("Quin número entre 1 i 10 he pensat? ")
         if suposicio_usuari == "": 

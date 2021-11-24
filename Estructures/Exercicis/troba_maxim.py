@@ -14,7 +14,7 @@ def main():
     valor_actual = 1
     while valor_actual >= 0:
         valor_actual = int(input("Introdueix un número natural: "))
-        if valor_actual > 0:
+        if valor_actual >= 0:
             llista_total_valors.append(valor_actual)
         maxim = max(llista_total_valors)
     return maxim

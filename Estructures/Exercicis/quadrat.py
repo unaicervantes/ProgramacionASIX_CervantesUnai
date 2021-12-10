@@ -9,5 +9,5 @@ while contador != n:
         for resultat in range(0,n+1,1):       
             total += str(resultat)+" "
         print(total) 
-    print("---------")
+    print("-"*n)
     contador += 1

@@ -23,11 +23,15 @@ def main(llista):
     """
     os.system('clear')
     for recorregut_llista in llista:
-        for x in range(len(llista) - 1):
-            for y in range(len(llista) - 1 - x):
-                if llista[y] > llista[y+1]:
-                    llista[y], llista[y+1] = llista[y+1], llista[y]
-        print("*" * recorregut_llista,recorregut_llista)   
+        print("*" * recorregut_llista,recorregut_llista) 
+    print("--------------")
+    for x in range(len(llista) - 1):
+        for y in range(len(llista) - 1 - x):
+            if llista[y] > llista[y+1]:
+                llista[y], llista[y+1] = llista[y+1], llista[y]
+    for recorregut_llista in llista:
+        print("*" * recorregut_llista,recorregut_llista)              
+          
 
 if __name__ == "__main__":
     vector_valors = []

@@ -19,10 +19,7 @@ def main():
         if opcio >=5:
             print("Opcio incorrecta. Hi han 5 opcions (0-4)") 
 
-        if opcio == 0:
-            quit()
-        
-        elif opcio == 1:
+        if opcio == 1:
             print("Has triat tot amb majúscules")
             frase = input("Introdueix la frase a processar: ") 
             frase_canviada = frase.upper()

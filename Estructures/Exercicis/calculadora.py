@@ -5,9 +5,7 @@ __author__   = "Unai Cervantes"
 __email__    = "cf19unai.cervantes@iesjoandaustria.org"
 __license__  = "GPL V3"
 
-from multiprocessing.sharedctypes import Value
 import sys
-from tkinter import E 
 
 def main(numero1,operador,numero2):
     """
@@ -61,7 +59,7 @@ def main(numero1,operador,numero2):
                 numero1 -= 1
             return factorial
     else:
-        return "El valor que has introduit no es vàlid, les operacions disponibles són: +,-,*,/,//,**,!"
+        return "L'operació que has intentat fer no es vàlida, les operacions disponibles són: +,-,*,/,//,**,!"
 
 
 if __name__ == "__main__":
@@ -69,3 +67,5 @@ if __name__ == "__main__":
         print(main(int(sys.argv[1]), sys.argv[2], int(sys.argv[3])))
     except ValueError:
         print("Has d'introduir números")
+    except IndexError:
+        print("Has d'introduir valors")

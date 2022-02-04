@@ -6,6 +6,6 @@ __email__    = "cf19unai.cervantes@iesjoandaustria.org"
 __license__  = "GPL V3"
 
 def main():
-    
+    pass
 if __name__ == "__main__":
     main()

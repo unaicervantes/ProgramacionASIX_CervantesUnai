@@ -63,17 +63,95 @@ def comproba_guanyador(taulell):
     for index in taulell:
         diagonal1.append(index[comptador])
         comptador = comptador + 1
-    print(diagonal1)
+
     
-    if diagonal1 == [0,0,0]:
-        resultat = "No ha guanyat ningú"
-    elif diagonal1 == [1,1,1]:
+    if diagonal1 == [1,1,1]:
         resultat = "Ha guanyat el jugador 1"
+        return resultat
     elif diagonal1 == [2,2,2]:
         resultat = "Ha guanyat el jugador 2"
+        return resultat
+    else:
+        resultat = "No diagonal1"
 
+    #diagonal2
+    comptador = 2
+    diagonal2 = []
+    resultat = ""
+    for index_dia2 in taulell:
+        diagonal2.append(index_dia2[comptador])
+        comptador = comptador - 1
+    
+    if diagonal2 == [1,1,1]:
+        resultat = "Ha guanyat el jugador 1"
+        return resultat
+    elif diagonal2 == [2,2,2]:
+        resultat = "Ha guanyat el jugador 2"
+        return resultat
+    else:
+        resultat = "No diagonal2"
+    
+    #Linias
+    comptador = 0
+    for index_linia in taulell:
+        if index_linia == [1,1,1]:
+            resultat = "Ha guanyat el jugador 1"
+            return resultat
+        elif index_linia == [2,2,2]:
+            resultat = "Ha guanyat el jugador 2"
+            return resultat
+        comptador = comptador + 1
+        
+    
+    #Columna1
+    comptador = 0
+    columna1 = []
+    resultat = ""
+    for index_c1 in taulell:
+        columna1.append(index_c1[comptador])
 
-    return resultat
+    if columna1 == [1,1,1]:
+        resultat = "Ha guanyat el jugador 1"
+        return resultat
+    elif columna1 == [2,2,2]:
+        resultat = "Ha guanyat el jugador 2"
+        return resultat
+    else:
+        resultat = "No diagonal1"
+
+    #Columna2
+    comptador = 1
+    columna2 = []
+    resultat = ""
+    for index_c2 in taulell:
+        columna2.append(index_c2[comptador])
+
+    if columna2 == [1,1,1]:
+        resultat = "Ha guanyat el jugador 1"
+        return resultat
+    elif columna2 == [2,2,2]:
+        resultat = "Ha guanyat el jugador 2"
+        return resultat
+    else:
+        resultat = "No diagonal1"
+    
+    #Columna3
+    comptador = 2
+    columna3 = []
+    resultat = ""
+    for index_c3 in taulell:
+        columna3.append(index_c3[comptador])
+
+    if columna3 == [1,1,1]:
+        resultat = "Ha guanyat el jugador 1"
+        return resultat
+    elif columna3 == [2,2,2]:
+        resultat = "Ha guanyat el jugador 2"
+        return resultat
+    else:
+        resultat = "No diagonal1"
+    
+    return " "
     
 def main(taulell):
     """

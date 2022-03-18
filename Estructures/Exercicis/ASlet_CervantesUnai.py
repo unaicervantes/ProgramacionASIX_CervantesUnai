@@ -37,15 +37,20 @@ def paraula_a_endevinar():
 
 def main():
     opcio = None
+    comptador = 0
     while opcio != 0:
         mostra_menu()
         opcio = int(input("Selecciona una opció: "))
         if opcio == 1:
             paraula_secreta = paraula_a_endevinar()
         elif opcio == 2:
-            resultat = endevinar_paraula(paraula_secreta)
-            if resultat == "Correcte":
-                return "Paraula correcte!"
+            while comptador < 6:
+                resultat = endevinar_paraula(paraula_secreta)
+                if resultat == "Correcte":
+                    return "Paraula correcte!"
+                comptador+=1
+            return "Ho has intentat més de 6 vegades"
+    return ""
 
 if __name__ == "__main__":
     print(main())

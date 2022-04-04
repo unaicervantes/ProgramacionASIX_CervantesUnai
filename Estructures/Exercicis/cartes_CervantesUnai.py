@@ -60,9 +60,32 @@ def barreja_01(ma):
         llista[index], llista[aleatori] = llista[aleatori], llista[index]
     return llista
     
+def divisio_maç(ma):
+
+    maç1 = ma[:len(ma)//2]
+    maç2 = ma[len(ma)//2:]
+
+    print("\nPrimera meitat \n----------------")
+    print_ma(maç1)
+    print("\nSegona meitat \n----------------")
+    print_ma(maç2)
+    
+    return maç1, maç2
+
+
+def fusiona(maç1,maç2):
+    
+    ma = maç1+maç2
+
+    print("\nMaç fusionat \n--------------")
+    print_ma(ma)
+
 def main():
     #print_ma([genera_carta(10,trevol), carta, genera_carta("A", pica)])
-    print_ma(barreja_01(get_baralla()))
+    #print_ma(barreja_01(get_baralla()))
+    maç1, maç2 = divisio_maç(barreja_01(get_baralla()))
+    fusiona(maç1,maç2)
+
 
 if __name__ == "__main__":
     main()

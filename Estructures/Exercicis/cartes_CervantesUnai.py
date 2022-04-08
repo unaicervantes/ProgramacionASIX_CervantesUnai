@@ -59,7 +59,8 @@ def barreja_01(ma):
         aleatori = random.randint(0, len(llista) -1)
         llista[index], llista[aleatori] = llista[aleatori], llista[index]
     return llista
-    
+
+
 def divisio_maç(ma):
 
     maç1 = ma[:len(ma)//2]
@@ -70,11 +71,13 @@ def divisio_maç(ma):
     print("\nSegona meitat \n----------------")
     print_ma(maç2)
     
+    maç1 = barreja_01(maç1)
+    maç2 = barreja_01(maç2)
     return maç1, maç2
 
 
 def fusiona(maç1,maç2):
-    
+
     ma = maç1+maç2
 
     print("\nMaç fusionat \n--------------")
@@ -85,7 +88,6 @@ def main():
     #print_ma(barreja_01(get_baralla()))
     maç1, maç2 = divisio_maç(barreja_01(get_baralla()))
     fusiona(maç1,maç2)
-
 
 if __name__ == "__main__":
     main()

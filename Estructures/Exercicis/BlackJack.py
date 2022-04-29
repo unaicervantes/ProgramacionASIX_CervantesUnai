@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
  
 from curses.ascii import isdigit
+from glob import glob
 import random
 import functools
 from functools import reduce
@@ -18,6 +19,7 @@ trevol  = "\U00002663"
 PALS = [cor, diamant, pica, trevol]
 FIGURES = ["J", "Q", "K", "A"]
 COLUMNES = 13
+
 
 
 def print_ma(ma):
@@ -182,35 +184,89 @@ def baralla_barrejada():
     baralla_b = barreja_03(baralla_b)
     return baralla_b
 
-def main():
-    opcio = None
+def comprova_puntacio(puntuacio):
+    if puntuacio > 21:
+        reinicia_ma()
+        return "Has perdut!"
+    elif puntuacio == 21:
+        reinicia_ma()
+        return "Black jack!!"
+    else:
+        return "Vols continuar?"
+
+def reinicia_ma():
+    global valors
+    global puntuacio
+    global ma
+    global baralla
+    global puntuacio_banca
+    global ma_banca
+    global valors_banca
+
     valors = []
     puntuacio = 0
-    ma= []
+    ma = []
     baralla = baralla_barrejada()
+    puntuacio_banca = 0
+    ma_banca = []
+    valors_banca = []
+
+valors = []
+puntuacio = 0
+ma= []
+baralla = baralla_barrejada()
+puntuacio_banca = 0
+ma_banca = []
+valors_banca = []
+
+def demana_carta():
+    ma.append(baralla.pop())
+    print_ma(ma)
+    valors = get_valors_ma(ma)
+    puntuacio = suma_valors_ma(valors)
+    return puntuacio,valors
+            
+
+
+def jugada_banca():
+    global puntuacio_banca
+    global valors_banca
+
+    while puntuacio_banca < 18:
+        puntuacio_banca,valors_banca = demana_carta()
+        print(f"Valors banca: {valors_banca} puntuació banca: {puntuacio_banca}\n")
+    return puntuacio_banca
+
+def comprovacio_banca(puntuacio_banca,puntuacio):
+    if puntuacio_banca > puntuacio:
+        if puntuacio_banca <= 21:
+            return "Ha guanyat la banca"
+        else:
+            return "Has guanyat!"
+    elif puntuacio_banca == puntuacio:
+        return "Empat!!"
+    else:
+        return "Has guanyat!"
+
+def main():
+    opcio = None
 
     while opcio != 0:
         mostra_menu()
         opcio = int(input("Que vols fer? "))
+
         if opcio == 1:
-            ma.append(baralla.pop())
-            print_ma(ma)
-            valors = get_valors_ma(ma)
-            puntuacio = suma_valors_ma(valors)
+            puntuacio,valors = demana_carta()            
             print(f"Valors: {valors} puntuació: {puntuacio}\n")
+            print(comprova_puntacio(puntuacio))
 
         elif opcio == 2:
-            os.system("clear")
-            print("Aquestes son les teves cartes\n-----------------------------")
-            print_ma(ma)
-            print(f"\nValors: {valors} puntuació: {puntuacio}\n")
-            opcio = 0
+            puntuacio_banca = jugada_banca()
+            print(comprovacio_banca(puntuacio_banca,puntuacio))
+            reinicia_ma()
             
         elif opcio == 3:
-            valors = []
-            puntuacio = 0
-            ma = []
-            baralla = baralla_barrejada()
+            reinicia_ma()
 
 
 if __name__ == "__main__":

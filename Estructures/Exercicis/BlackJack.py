@@ -187,10 +187,12 @@ def baralla_barrejada():
 def comprova_puntacio(puntuacio):
     if puntuacio > 21:
         reinicia_ma()
-        return "Has perdut!"
+        print("Has perdut!")
+        sleep(1)
     elif puntuacio == 21:
         reinicia_ma()
-        return "Black jack!!"
+        print("Black jack!!")
+        sleep(1)
     else:
         return "Vols continuar?"
 
@@ -221,10 +223,10 @@ valors_banca = []
 
 def demana_carta():
     ma.append(baralla.pop())
-    print_ma(ma)
+    #print_ma(ma)
     valors = get_valors_ma(ma)
     puntuacio = suma_valors_ma(valors)
-    return puntuacio,valors
+    return puntuacio,valors,ma
             
 
 
@@ -233,8 +235,9 @@ def jugada_banca():
     global valors_banca
 
     while puntuacio_banca < 18:
-        puntuacio_banca,valors_banca = demana_carta()
-        print(f"Valors banca: {valors_banca} puntuació banca: {puntuacio_banca}\n")
+        puntuacio_banca,valors_banca,ma_banca = demana_carta()
+    print_ma(ma)
+    print(f"Valors banca: {valors_banca} puntuació banca: {puntuacio_banca}\n")
     return puntuacio_banca
 
 def comprovacio_banca(puntuacio_banca,puntuacio):
@@ -252,21 +255,27 @@ def main():
     opcio = None
 
     while opcio != 0:
-        mostra_menu()
-        opcio = int(input("Que vols fer? "))
+        try:
+            mostra_menu()
+            opcio = int(input("Que vols fer? "))
 
-        if opcio == 1:
-            puntuacio,valors = demana_carta()            
-            print(f"Valors: {valors} puntuació: {puntuacio}\n")
-            print(comprova_puntacio(puntuacio))
-
-        elif opcio == 2:
-            puntuacio_banca = jugada_banca()
-            print(comprovacio_banca(puntuacio_banca,puntuacio))
-            reinicia_ma()
-            
-        elif opcio == 3:
-            reinicia_ma()
+            if opcio == 1:
+                puntuacio,valors,ma = demana_carta()
+                print_ma(ma)            
+                print(f"Valors: {valors} puntuació: {puntuacio}\n")
+                print(comprova_puntacio(puntuacio))
+            elif opcio == 2:
+                puntuacio_banca = jugada_banca()
+                print_ma(ma)            
+                print(f"Valors: {valors} puntuació: {puntuacio}\n")
+                print(comprovacio_banca(puntuacio_banca,puntuacio))
+                sleep(1)
+                reinicia_ma()
+                
+            elif opcio == 3:
+                reinicia_ma()
+        except:
+            print("\nCaràrcters no vàlids")
 
 
 if __name__ == "__main__":

@@ -258,7 +258,8 @@ def main():
         try:
             mostra_menu()
             opcio = int(input("Que vols fer? "))
-
+            if opcio >3:
+                print("Número no vàlid.")
             if opcio == 1:
                 puntuacio,valors,ma = demana_carta()
                 print_ma(ma)            

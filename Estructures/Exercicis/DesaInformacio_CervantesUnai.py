@@ -31,7 +31,7 @@ def menu_introdueix():
 ---------------------")
 
 
-def introdueix_opcions():
+def introdueix_opcions(comprovacio):
     dni = ""
     nom = ""
     cognom = ""
@@ -44,10 +44,8 @@ def introdueix_opcions():
         opcio = int(input("Quina dada vols introduir? "))
         if opcio == 1:
             dni = input("Introdueix el DNI: ")
-            for index in llegeix_json():
-                for index2 in index:
-                    if index2 == dni:
-                        dni = input("Aquest DNI no està permes, torna'l a introduir: ")
+            if dni in comprovacio:
+                dni = input("DNI ni vàlid, torna'l a introduir: ")
         elif opcio == 2:
             nom = input("Introdueix el teu nom: ")
         elif opcio == 3:
@@ -82,7 +80,7 @@ def main():
             print(json.dumps(llegeix_json(), indent=4))
         elif opcio == 2:
             os.system("clear")
-            informacio = introdueix_opcions()
+            informacio = introdueix_opcions(usuaris)
             usuaris.append(informacio)
             desa_dades(usuaris)
 

@@ -22,7 +22,7 @@ def menu_principal():
 
 def menu_introdueix():
     print("---------------------\n\
-0.- Continua\n\
+0.- Desar usuari\n\
 1.- DNI\n\
 2.- Nom\n\
 3.- Cognom\n\
@@ -44,8 +44,10 @@ def introdueix_opcions():
         opcio = int(input("Quina dada vols introduir? "))
         if opcio == 1:
             dni = input("Introdueix el DNI: ")
-            if dni in llegeix_json():
-                input("Aquest DNI no està permes, torna'l a introduir: ")
+            for index in llegeix_json():
+                for index2 in index:
+                    if index2 == dni:
+                        dni = input("Aquest DNI no està permes, torna'l a introduir: ")
         elif opcio == 2:
             nom = input("Introdueix el teu nom: ")
         elif opcio == 3:
@@ -69,10 +71,10 @@ def llegeix_json():
     return usuaris
 
 
-def main():
-    usuaris = (llegeix_json())
+def main():  
     opcio = None
     while opcio != 0:
+        usuaris = (llegeix_json())
         menu_principal()
         opcio = int(input("Quina opció vols? "))
         if opcio == 1:

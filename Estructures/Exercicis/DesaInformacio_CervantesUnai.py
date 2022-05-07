@@ -9,6 +9,7 @@ __license__  = "GPL V3"
 
 import os
 import json
+from time import sleep
 
 PATH_DADES = "./dades.json"
 
@@ -64,9 +65,13 @@ def desa_dades(informacio):
 
 
 def llegeix_json():
-    with open(PATH_DADES, 'r') as fitxer:
-        usuaris = json.load(fitxer)
-    return usuaris
+    try:
+        with open(PATH_DADES, 'r') as fitxer:
+            usuaris = json.load(fitxer)
+        return usuaris
+    except json.decoder.JSONDecodeError:
+        print("No hi ha dades a mostrar.")
+        sleep(2)
 
 
 def main():  

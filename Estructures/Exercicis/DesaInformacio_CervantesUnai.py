@@ -7,6 +7,17 @@ __license__  = "GPL V3"
 
 """Exercici en el que guardarem la informació que introdueix l'usuari en un fitxer."""
 
+"""
+Justificació desar dades
+------------------------
+He decidit deixar les dades en un fitxer Json ja que em sembla una forma senzilla i permet guardar cada element que es demana 
+de forma ordenada i fàcil d'accedir. 
+Cada cop que s'inicia el programa es llegeix el fitxer de dades i es guarda en una variable. En aquesta variable s'aniran 
+afegint els diferents usuaris. Es poden afegir tants usuaris com es volen en una mateixa execucció del programa. Cada cop que 
+es posin les dades d'un usuari s'afegirà a la variable usuaris. Després es carregarà aquesta variable al fitxer de dades.
+Com la variable conté tots els usuaris existents i nous es sobreescriurà el fitxer. 
+"""
+
 import os
 import json
 from time import sleep
@@ -24,11 +35,7 @@ def menu_principal():
 def menu_introdueix():
     print("---------------------\n\
 0.- Desar usuari\n\
-1.- DNI\n\
-2.- Nom\n\
-3.- Cognom\n\
-4.- Data naixement\n\
-5.- Telèfon\n\
+1.- Introduir informació\n\
 ---------------------")
 
 
@@ -42,20 +49,15 @@ def introdueix_opcions(comprovacio):
     while opcio != 0:
         os.system("clear")
         menu_introdueix()
-        opcio = int(input("Quina dada vols introduir? "))
+        opcio = int(input("Que vols fer? "))
         if opcio == 1:
             dni = input("Introdueix el DNI: ")
-            if dni in comprovacio:
-                dni = input("DNI ni vàlid, torna'l a introduir: ")
-        elif opcio == 2:
             nom = input("Introdueix el teu nom: ")
-        elif opcio == 3:
             cognom = input("Introdueix el teu cognom: ")
-        elif opcio == 4:
             data_naixement = input("Introdueix la teva data de naixement: ")
-        elif opcio == 5:
             telefon = input("Introdueix el teu telèfon: ")
-    informacio = {"dni":dni,"nom":nom,"cognom":cognom,"Data_naixement":data_naixement,"Telefon":telefon}
+        
+        informacio = {"dni":dni,"nom":nom,"cognom":cognom,"Data_naixement":data_naixement,"Telefon":telefon}
     return informacio
 
 
@@ -77,7 +79,7 @@ def llegeix_json():
 def main():  
     opcio = None
     while opcio != 0:
-        usuaris = (llegeix_json())
+        usuaris = [llegeix_json()]
         menu_principal()
         opcio = int(input("Quina opció vols? "))
         if opcio == 1:

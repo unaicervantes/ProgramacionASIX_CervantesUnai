@@ -10,6 +10,7 @@ __license__  = "GPL V3"
 PATH_PLANTILLA = "./plantilla.html"
 PATH_MEMORIA = "./memoria.html"
 
+
 def llegir_dades():
     with open("/proc/meminfo") as memoria:
         total = memoria.readline()
@@ -36,13 +37,17 @@ def llegeix_plantilla(total,lliure,disponible):
         html = html.replace("{{MLliure}}",lliure)
     return html
 
+
 def crea_memoria(html):
     with open(PATH_MEMORIA,"w") as fitxer:
         fitxer.write(html)
+
 
 def main():
     total,lliure,disponible = llegir_dades()
     crea_memoria(llegeix_plantilla(total,lliure,disponible ))
     print("El fitxer s'ha creat")
+
+    
 if __name__ == "__main__":
     main()

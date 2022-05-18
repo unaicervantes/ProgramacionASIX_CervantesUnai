@@ -1,0 +1,659 @@
+[2022-05-04T17:06:11.539074 15034] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.539074 15034] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) base_dir = 
+[2022-05-04T17:06:11.539074 15034] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.539074 15034] Config: (default) compiler = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.539074 15034] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.539074 15034] Config: (default) compression = true
+[2022-05-04T17:06:11.539074 15034] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.539074 15034] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) debug = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.539074 15034] Config: (default) disable = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) file_clone = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) hard_link = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.539074 15034] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.539074 15034] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.539074 15034] Config: (default) max_files = 0
+[2022-05-04T17:06:11.539074 15034] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.539074 15034] Config: (default) path = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) read_only = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) recache = false
+[2022-05-04T17:06:11.539074 15034] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.539074 15034] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.539074 15034] Config: (default) stats = true
+[2022-05-04T17:06:11.539074 15034] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.539074 15034] Config: (default) umask = 
+[2022-05-04T17:06:11.539184 15034] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __constants.c
+[2022-05-04T17:06:11.539203 15034] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.539218 15034] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.539232 15034] Compiler type: gcc
+[2022-05-04T17:06:11.539337 15034] Source file: __constants.c
+[2022-05-04T17:06:11.539381 15034] Object file: __constants.o
+[2022-05-04T17:06:11.539412 15034] Trying direct lookup
+[2022-05-04T17:06:11.539463 15034] Looking for result name in /home/unai/.cache/Nuitka/ccache/0/e/abc9n02pcp6klje1mtipk3u5fjnngd0M
+[2022-05-04T17:06:11.543261 15034] Got result name from manifest
+[2022-05-04T17:06:11.543341 15034] Reading result /home/unai/.cache/Nuitka/ccache/1/e/a3ntsassapml69gee77amemlkun276iR
+[2022-05-04T17:06:11.543426 15034] Reading embedded entry #0 .o (4488 bytes)
+[2022-05-04T17:06:11.543446 15034] Writing to __constants.o
+[2022-05-04T17:06:11.543541 15034] Succeeded getting cached result
+[2022-05-04T17:06:11.543559 15034] Result: cache hit (direct)
+[2022-05-04T17:06:11.543630 15034] Acquired lock /home/unai/.cache/Nuitka/ccache/1/e/stats.lock
+[2022-05-04T17:06:11.543806 15034] Releasing lock /home/unai/.cache/Nuitka/ccache/1/e/stats.lock
+[2022-05-04T17:06:11.543865 15034] Unlink /home/unai/.cache/Nuitka/ccache/1/e/stats.lock
+[2022-05-04T17:06:11.546224 15038] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.546224 15038] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) base_dir = 
+[2022-05-04T17:06:11.546224 15038] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.546224 15038] Config: (default) compiler = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.546224 15038] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.546224 15038] Config: (default) compression = true
+[2022-05-04T17:06:11.546224 15038] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.546224 15038] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) debug = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.546224 15038] Config: (environment) disable = true
+[2022-05-04T17:06:11.546224 15038] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) file_clone = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) hard_link = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.546224 15038] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.546224 15038] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.546224 15038] Config: (default) max_files = 0
+[2022-05-04T17:06:11.546224 15038] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.546224 15038] Config: (default) path = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) read_only = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) recache = false
+[2022-05-04T17:06:11.546224 15038] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.546224 15038] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.546224 15038] Config: (default) stats = true
+[2022-05-04T17:06:11.546224 15038] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.546224 15038] Config: (default) umask = 
+[2022-05-04T17:06:11.546320 15038] ccache is disabled
+[2022-05-04T17:06:11.546349 15038] Failed; falling back to running the real compiler
+[2022-05-04T17:06:11.546355 15038] Executing /usr/bin/gcc -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __constants_data.c
+[2022-05-04T17:06:11.546366 15038] Result: disabled
+[2022-05-04T17:06:11.563807 15042] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.563807 15042] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) base_dir = 
+[2022-05-04T17:06:11.563807 15042] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.563807 15042] Config: (default) compiler = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.563807 15042] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.563807 15042] Config: (default) compression = true
+[2022-05-04T17:06:11.563807 15042] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.563807 15042] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) debug = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.563807 15042] Config: (default) disable = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) file_clone = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) hard_link = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.563807 15042] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.563807 15042] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.563807 15042] Config: (default) max_files = 0
+[2022-05-04T17:06:11.563807 15042] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.563807 15042] Config: (default) path = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) read_only = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) recache = false
+[2022-05-04T17:06:11.563807 15042] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.563807 15042] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.563807 15042] Config: (default) stats = true
+[2022-05-04T17:06:11.563807 15042] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.563807 15042] Config: (default) umask = 
+[2022-05-04T17:06:11.563980 15042] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __helpers.c
+[2022-05-04T17:06:11.564003 15042] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.564011 15042] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.564017 15042] Compiler type: gcc
+[2022-05-04T17:06:11.564129 15042] Source file: __helpers.c
+[2022-05-04T17:06:11.564238 15042] Object file: __helpers.o
+[2022-05-04T17:06:11.564285 15042] Trying direct lookup
+[2022-05-04T17:06:11.564478 15042] Looking for result name in /home/unai/.cache/Nuitka/ccache/c/a/5bnis47sfg7dvsng76a55gffu5k05lkM
+[2022-05-04T17:06:11.565755 15045] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.565755 15045] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) base_dir = 
+[2022-05-04T17:06:11.565755 15045] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.565755 15045] Config: (default) compiler = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.565755 15045] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.565755 15045] Config: (default) compression = true
+[2022-05-04T17:06:11.565755 15045] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.565755 15045] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) debug = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.565755 15045] Config: (default) disable = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) file_clone = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) hard_link = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.565755 15045] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.565755 15045] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.565755 15045] Config: (default) max_files = 0
+[2022-05-04T17:06:11.565755 15045] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.565755 15045] Config: (default) path = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) read_only = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) recache = false
+[2022-05-04T17:06:11.565755 15045] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.565755 15045] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.565755 15045] Config: (default) stats = true
+[2022-05-04T17:06:11.565755 15045] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.565755 15045] Config: (default) umask = 
+[2022-05-04T17:06:11.565843 15045] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src __loader.c
+[2022-05-04T17:06:11.565871 15045] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.565885 15045] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.565899 15045] Compiler type: gcc
+[2022-05-04T17:06:11.565989 15045] Source file: __loader.c
+[2022-05-04T17:06:11.566009 15045] Object file: __loader.o
+[2022-05-04T17:06:11.566036 15045] Trying direct lookup
+[2022-05-04T17:06:11.566076 15045] Looking for result name in /home/unai/.cache/Nuitka/ccache/5/2/709jorrds38khdh5qi4egd557vsgloiM
+[2022-05-04T17:06:11.568558 15045] Got result name from manifest
+[2022-05-04T17:06:11.568609 15045] Reading result /home/unai/.cache/Nuitka/ccache/0/a/d68qh4m2sfhh7kl6i512bne90o6qgosR
+[2022-05-04T17:06:11.568700 15045] Reading embedded entry #0 .o (2624 bytes)
+[2022-05-04T17:06:11.568725 15045] Writing to __loader.o
+[2022-05-04T17:06:11.568820 15045] Succeeded getting cached result
+[2022-05-04T17:06:11.568854 15045] Result: cache hit (direct)
+[2022-05-04T17:06:11.568913 15045] Acquired lock /home/unai/.cache/Nuitka/ccache/0/a/stats.lock
+[2022-05-04T17:06:11.568911 15042] Got result name from manifest
+[2022-05-04T17:06:11.568942 15042] Reading result /home/unai/.cache/Nuitka/ccache/d/a/e4foq8m92c67aep068l0j1vo8jmqvesR
+[2022-05-04T17:06:11.569052 15042] Reading embedded entry #0 .o (19096 bytes)
+[2022-05-04T17:06:11.569064 15042] Writing to __helpers.o
+[2022-05-04T17:06:11.569157 15042] Succeeded getting cached result
+[2022-05-04T17:06:11.569170 15042] Result: cache hit (direct)
+[2022-05-04T17:06:11.569200 15045] Releasing lock /home/unai/.cache/Nuitka/ccache/0/a/stats.lock
+[2022-05-04T17:06:11.569222 15042] Acquired lock /home/unai/.cache/Nuitka/ccache/d/a/stats.lock
+[2022-05-04T17:06:11.569272 15045] Unlink /home/unai/.cache/Nuitka/ccache/0/a/stats.lock
+[2022-05-04T17:06:11.569385 15042] Releasing lock /home/unai/.cache/Nuitka/ccache/d/a/stats.lock
+[2022-05-04T17:06:11.569417 15042] Unlink /home/unai/.cache/Nuitka/ccache/d/a/stats.lock
+[2022-05-04T17:06:11.594231 15049] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.594231 15049] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) base_dir = 
+[2022-05-04T17:06:11.594231 15049] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.594231 15049] Config: (default) compiler = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.594231 15049] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.594231 15049] Config: (default) compression = true
+[2022-05-04T17:06:11.594231 15049] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.594231 15049] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) debug = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.594231 15049] Config: (default) disable = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) file_clone = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) hard_link = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.594231 15049] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.594231 15049] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.594231 15049] Config: (default) max_files = 0
+[2022-05-04T17:06:11.594231 15049] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.594231 15049] Config: (default) path = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) read_only = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) recache = false
+[2022-05-04T17:06:11.594231 15049] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.594231 15049] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.594231 15049] Config: (default) stats = true
+[2022-05-04T17:06:11.594231 15049] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.594231 15049] Config: (default) umask = 
+[2022-05-04T17:06:11.594414 15049] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/MainProgram.c
+[2022-05-04T17:06:11.594445 15049] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.594460 15049] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.594474 15049] Compiler type: gcc
+[2022-05-04T17:06:11.594549 15049] Source file: static_src/MainProgram.c
+[2022-05-04T17:06:11.594566 15049] Object file: static_src/MainProgram.o
+[2022-05-04T17:06:11.594594 15049] Trying direct lookup
+[2022-05-04T17:06:11.594661 15049] Looking for result name in /home/unai/.cache/Nuitka/ccache/c/6/2cko4anmhfon0a64q83c3voam4qf266M
+[2022-05-04T17:06:11.598872 15049] Got result name from manifest
+[2022-05-04T17:06:11.599068 15049] Reading result /home/unai/.cache/Nuitka/ccache/f/c/494jpjhclmda7stj0bqlbslpirl8e3cR
+[2022-05-04T17:06:11.599209 15049] Reading embedded entry #0 .o (7752 bytes)
+[2022-05-04T17:06:11.599239 15049] Writing to static_src/MainProgram.o
+[2022-05-04T17:06:11.599352 15049] Succeeded getting cached result
+[2022-05-04T17:06:11.599371 15049] Result: cache hit (direct)
+[2022-05-04T17:06:11.599451 15049] Acquired lock /home/unai/.cache/Nuitka/ccache/f/c/stats.lock
+[2022-05-04T17:06:11.599628 15049] Releasing lock /home/unai/.cache/Nuitka/ccache/f/c/stats.lock
+[2022-05-04T17:06:11.599659 15049] Unlink /home/unai/.cache/Nuitka/ccache/f/c/stats.lock
+[2022-05-04T17:06:11.602432 15051] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.602432 15051] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) base_dir = 
+[2022-05-04T17:06:11.602432 15051] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.602432 15051] Config: (default) compiler = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.602432 15051] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.602432 15051] Config: (default) compression = true
+[2022-05-04T17:06:11.602432 15051] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.602432 15051] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) debug = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.602432 15051] Config: (default) disable = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) file_clone = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) hard_link = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.602432 15051] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.602432 15051] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.602432 15051] Config: (default) max_files = 0
+[2022-05-04T17:06:11.602432 15051] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.602432 15051] Config: (default) path = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) read_only = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) recache = false
+[2022-05-04T17:06:11.602432 15051] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.602432 15051] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.602432 15051] Config: (default) stats = true
+[2022-05-04T17:06:11.602432 15051] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.602432 15051] Config: (default) umask = 
+[2022-05-04T17:06:11.602525 15051] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src module.__main__.c
+[2022-05-04T17:06:11.602541 15051] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.602546 15051] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.602550 15051] Compiler type: gcc
+[2022-05-04T17:06:11.602625 15051] Source file: module.__main__.c
+[2022-05-04T17:06:11.602631 15051] Object file: module.__main__.o
+[2022-05-04T17:06:11.602650 15051] Trying direct lookup
+[2022-05-04T17:06:11.603360 15051] Looking for result name in /home/unai/.cache/Nuitka/ccache/b/a/e4ijio0jl9uockb6447pl91ssmddebqM
+[2022-05-04T17:06:11.607665 15051] Got result name from manifest
+[2022-05-04T17:06:11.607720 15051] Reading result /home/unai/.cache/Nuitka/ccache/3/6/b2iusd0o176cij8qp8hr0km9vh0cq4iR
+[2022-05-04T17:06:11.608902 15051] Reading embedded entry #0 .o (149944 bytes)
+[2022-05-04T17:06:11.608926 15051] Writing to module.__main__.o
+[2022-05-04T17:06:11.609196 15051] Succeeded getting cached result
+[2022-05-04T17:06:11.609205 15051] Result: cache hit (direct)
+[2022-05-04T17:06:11.609253 15051] Acquired lock /home/unai/.cache/Nuitka/ccache/3/6/stats.lock
+[2022-05-04T17:06:11.609427 15051] Releasing lock /home/unai/.cache/Nuitka/ccache/3/6/stats.lock
+[2022-05-04T17:06:11.609448 15051] Unlink /home/unai/.cache/Nuitka/ccache/3/6/stats.lock
+[2022-05-04T17:06:11.613705 15055] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.613705 15055] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) base_dir = 
+[2022-05-04T17:06:11.613705 15055] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.613705 15055] Config: (default) compiler = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.613705 15055] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.613705 15055] Config: (default) compression = true
+[2022-05-04T17:06:11.613705 15055] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.613705 15055] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) debug = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.613705 15055] Config: (default) disable = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) file_clone = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) hard_link = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.613705 15055] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.613705 15055] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.613705 15055] Config: (default) max_files = 0
+[2022-05-04T17:06:11.613705 15055] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.613705 15055] Config: (default) path = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) read_only = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) recache = false
+[2022-05-04T17:06:11.613705 15055] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.613705 15055] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.613705 15055] Config: (default) stats = true
+[2022-05-04T17:06:11.613705 15055] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.613705 15055] Config: (default) umask = 
+[2022-05-04T17:06:11.614038 15055] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2022-05-04T17:06:11.614117 15055] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.614149 15055] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.614165 15055] Compiler type: gcc
+[2022-05-04T17:06:11.614254 15055] Source file: static_src/CompiledFunctionType.c
+[2022-05-04T17:06:11.614273 15055] Object file: static_src/CompiledFunctionType.o
+[2022-05-04T17:06:11.614308 15055] Trying direct lookup
+[2022-05-04T17:06:11.614451 15055] Looking for result name in /home/unai/.cache/Nuitka/ccache/3/1/489a6d8pdu32pd9sbs976ifvh43cqocM
+[2022-05-04T17:06:11.614784 15057] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.614784 15057] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) base_dir = 
+[2022-05-04T17:06:11.614784 15057] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.614784 15057] Config: (default) compiler = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.614784 15057] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.614784 15057] Config: (default) compression = true
+[2022-05-04T17:06:11.614784 15057] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.614784 15057] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) debug = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.614784 15057] Config: (default) disable = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) file_clone = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) hard_link = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.614784 15057] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.614784 15057] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.614784 15057] Config: (default) max_files = 0
+[2022-05-04T17:06:11.614784 15057] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.614784 15057] Config: (default) path = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) read_only = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) recache = false
+[2022-05-04T17:06:11.614784 15057] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.614784 15057] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.614784 15057] Config: (default) stats = true
+[2022-05-04T17:06:11.614784 15057] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.614784 15057] Config: (default) umask = 
+[2022-05-04T17:06:11.614859 15057] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2022-05-04T17:06:11.614873 15057] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.614877 15057] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.614880 15057] Compiler type: gcc
+[2022-05-04T17:06:11.615494 15057] Source file: static_src/CompiledCellType.c
+[2022-05-04T17:06:11.615530 15057] Object file: static_src/CompiledCellType.o
+[2022-05-04T17:06:11.615563 15057] Trying direct lookup
+[2022-05-04T17:06:11.615644 15057] Looking for result name in /home/unai/.cache/Nuitka/ccache/2/b/9flapvbhtbur4e6cfhnd825qidm8rcoM
+[2022-05-04T17:06:11.619668 15055] Got result name from manifest
+[2022-05-04T17:06:11.619767 15055] Reading result /home/unai/.cache/Nuitka/ccache/e/5/9fmmn93aidjk0kosfpjq45j5lrl2ermR
+[2022-05-04T17:06:11.619820 15057] Got result name from manifest
+[2022-05-04T17:06:11.619865 15057] Reading result /home/unai/.cache/Nuitka/ccache/2/1/d03hobd4cq3rtq2vqvfaoaa4uboeloeR
+[2022-05-04T17:06:11.619999 15057] Reading embedded entry #0 .o (7816 bytes)
+[2022-05-04T17:06:11.620022 15057] Writing to static_src/CompiledCellType.o
+[2022-05-04T17:06:11.620159 15057] Succeeded getting cached result
+[2022-05-04T17:06:11.620178 15057] Result: cache hit (direct)
+[2022-05-04T17:06:11.620253 15057] Acquired lock /home/unai/.cache/Nuitka/ccache/2/1/stats.lock
+[2022-05-04T17:06:11.620309 15055] Reading embedded entry #0 .o (52408 bytes)
+[2022-05-04T17:06:11.620345 15055] Writing to static_src/CompiledFunctionType.o
+[2022-05-04T17:06:11.620511 15057] Releasing lock /home/unai/.cache/Nuitka/ccache/2/1/stats.lock
+[2022-05-04T17:06:11.620540 15057] Unlink /home/unai/.cache/Nuitka/ccache/2/1/stats.lock
+[2022-05-04T17:06:11.620659 15055] Succeeded getting cached result
+[2022-05-04T17:06:11.620685 15055] Result: cache hit (direct)
+[2022-05-04T17:06:11.620750 15055] Acquired lock /home/unai/.cache/Nuitka/ccache/e/5/stats.lock
+[2022-05-04T17:06:11.620956 15055] Releasing lock /home/unai/.cache/Nuitka/ccache/e/5/stats.lock
+[2022-05-04T17:06:11.620993 15055] Unlink /home/unai/.cache/Nuitka/ccache/e/5/stats.lock
+[2022-05-04T17:06:11.630252 15060] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.630252 15060] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) base_dir = 
+[2022-05-04T17:06:11.630252 15060] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.630252 15060] Config: (default) compiler = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.630252 15060] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.630252 15060] Config: (default) compression = true
+[2022-05-04T17:06:11.630252 15060] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.630252 15060] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) debug = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.630252 15060] Config: (default) disable = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) file_clone = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) hard_link = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.630252 15060] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.630252 15060] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.630252 15060] Config: (default) max_files = 0
+[2022-05-04T17:06:11.630252 15060] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.630252 15060] Config: (default) path = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) read_only = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) recache = false
+[2022-05-04T17:06:11.630252 15060] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.630252 15060] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.630252 15060] Config: (default) stats = true
+[2022-05-04T17:06:11.630252 15060] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.630252 15060] Config: (default) umask = 
+[2022-05-04T17:06:11.630380 15060] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2022-05-04T17:06:11.630403 15060] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.630421 15060] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.630447 15060] Compiler type: gcc
+[2022-05-04T17:06:11.630535 15060] Source file: static_src/CompiledGeneratorType.c
+[2022-05-04T17:06:11.630554 15060] Object file: static_src/CompiledGeneratorType.o
+[2022-05-04T17:06:11.630589 15060] Trying direct lookup
+[2022-05-04T17:06:11.630713 15060] Looking for result name in /home/unai/.cache/Nuitka/ccache/0/c/1b9u8ibhmvf7qdfcp1thu2cn1norkvcM
+[2022-05-04T17:06:11.635482 15060] Got result name from manifest
+[2022-05-04T17:06:11.635578 15060] Reading result /home/unai/.cache/Nuitka/ccache/a/d/8at6em7qcnakiua421cp5pkl24vjo16R
+[2022-05-04T17:06:11.635865 15060] Reading embedded entry #0 .o (126392 bytes)
+[2022-05-04T17:06:11.635887 15060] Writing to static_src/CompiledGeneratorType.o
+[2022-05-04T17:06:11.636164 15060] Succeeded getting cached result
+[2022-05-04T17:06:11.636187 15060] Result: cache hit (direct)
+[2022-05-04T17:06:11.636246 15060] Acquired lock /home/unai/.cache/Nuitka/ccache/a/d/stats.lock
+[2022-05-04T17:06:11.636438 15060] Releasing lock /home/unai/.cache/Nuitka/ccache/a/d/stats.lock
+[2022-05-04T17:06:11.636469 15060] Unlink /home/unai/.cache/Nuitka/ccache/a/d/stats.lock
+[2022-05-04T17:06:11.687500 15064] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.687500 15064] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) base_dir = 
+[2022-05-04T17:06:11.687500 15064] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.687500 15064] Config: (default) compiler = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.687500 15064] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.687500 15064] Config: (default) compression = true
+[2022-05-04T17:06:11.687500 15064] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.687500 15064] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) debug = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.687500 15064] Config: (default) disable = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) file_clone = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) hard_link = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.687500 15064] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.687500 15064] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.687500 15064] Config: (default) max_files = 0
+[2022-05-04T17:06:11.687500 15064] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.687500 15064] Config: (default) path = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) read_only = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) recache = false
+[2022-05-04T17:06:11.687500 15064] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.687500 15064] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.687500 15064] Config: (default) stats = true
+[2022-05-04T17:06:11.687500 15064] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.687500 15064] Config: (default) umask = 
+[2022-05-04T17:06:11.688362 15064] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2022-05-04T17:06:11.688395 15064] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.688400 15064] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.688404 15064] Compiler type: gcc
+[2022-05-04T17:06:11.688552 15064] Source file: static_src/InspectPatcher.c
+[2022-05-04T17:06:11.688565 15064] Object file: static_src/InspectPatcher.o
+[2022-05-04T17:06:11.688586 15064] Trying direct lookup
+[2022-05-04T17:06:11.688655 15064] Looking for result name in /home/unai/.cache/Nuitka/ccache/f/5/4abou4hgvc9brg2iq4jdfsv1mjmt7fsM
+[2022-05-04T17:06:11.691814 15067] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.691814 15067] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) base_dir = 
+[2022-05-04T17:06:11.691814 15067] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.691814 15067] Config: (default) compiler = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.691814 15067] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.691814 15067] Config: (default) compression = true
+[2022-05-04T17:06:11.691814 15067] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.691814 15067] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) debug = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.691814 15067] Config: (default) disable = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) file_clone = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) hard_link = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.691814 15067] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.691814 15067] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.691814 15067] Config: (default) max_files = 0
+[2022-05-04T17:06:11.691814 15067] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.691814 15067] Config: (default) path = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) read_only = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) recache = false
+[2022-05-04T17:06:11.691814 15067] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.691814 15067] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.691814 15067] Config: (default) stats = true
+[2022-05-04T17:06:11.691814 15067] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.691814 15067] Config: (default) umask = 
+[2022-05-04T17:06:11.691898 15067] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/CompiledCodeHelpers.c
+[2022-05-04T17:06:11.691918 15067] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.691923 15067] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.691927 15067] Compiler type: gcc
+[2022-05-04T17:06:11.691997 15067] Source file: static_src/CompiledCodeHelpers.c
+[2022-05-04T17:06:11.692005 15067] Object file: static_src/CompiledCodeHelpers.o
+[2022-05-04T17:06:11.692024 15067] Trying direct lookup
+[2022-05-04T17:06:11.692126 15067] Looking for result name in /home/unai/.cache/Nuitka/ccache/c/1/1b51o25mauo898h8vgarh0vljfef844M
+[2022-05-04T17:06:11.694503 15064] Got result name from manifest
+[2022-05-04T17:06:11.694556 15064] Reading result /home/unai/.cache/Nuitka/ccache/c/a/15duokiaau58reb77tp6f9e1lou4bdsR
+[2022-05-04T17:06:11.694655 15064] Reading embedded entry #0 .o (12424 bytes)
+[2022-05-04T17:06:11.694668 15064] Writing to static_src/InspectPatcher.o
+[2022-05-04T17:06:11.694745 15064] Succeeded getting cached result
+[2022-05-04T17:06:11.694754 15064] Result: cache hit (direct)
+[2022-05-04T17:06:11.694798 15064] Acquired lock /home/unai/.cache/Nuitka/ccache/c/a/stats.lock
+[2022-05-04T17:06:11.695008 15064] Releasing lock /home/unai/.cache/Nuitka/ccache/c/a/stats.lock
+[2022-05-04T17:06:11.695102 15064] Unlink /home/unai/.cache/Nuitka/ccache/c/a/stats.lock
+[2022-05-04T17:06:11.695240 15069] === CCACHE 4.2 STARTED =========================================
+[2022-05-04T17:06:11.695240 15069] Config: (default) absolute_paths_in_stderr = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) base_dir = 
+[2022-05-04T17:06:11.695240 15069] Config: (environment) cache_dir = /home/unai/.cache/Nuitka/ccache
+[2022-05-04T17:06:11.695240 15069] Config: (default) compiler = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) compiler_check = mtime
+[2022-05-04T17:06:11.695240 15069] Config: (default) compiler_type = auto
+[2022-05-04T17:06:11.695240 15069] Config: (default) compression = true
+[2022-05-04T17:06:11.695240 15069] Config: (default) compression_level = 0
+[2022-05-04T17:06:11.695240 15069] Config: (default) cpp_extension = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) debug = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) debug_dir = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) depend_mode = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) direct_mode = true
+[2022-05-04T17:06:11.695240 15069] Config: (default) disable = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) extra_files_to_hash = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) file_clone = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) hard_link = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) hash_dir = true
+[2022-05-04T17:06:11.695240 15069] Config: (default) ignore_headers_in_manifest = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) ignore_options = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) inode_cache = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) keep_comments_cpp = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) limit_multiple = 0.8
+[2022-05-04T17:06:11.695240 15069] Config: (environment) log_file = /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build/ccache-15026.txt
+[2022-05-04T17:06:11.695240 15069] Config: (default) max_files = 0
+[2022-05-04T17:06:11.695240 15069] Config: (default) max_size = 5.0G
+[2022-05-04T17:06:11.695240 15069] Config: (default) path = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) pch_external_checksum = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) prefix_command = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) prefix_command_cpp = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) read_only = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) read_only_direct = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) recache = false
+[2022-05-04T17:06:11.695240 15069] Config: (default) run_second_cpp = true
+[2022-05-04T17:06:11.695240 15069] Config: (default) sloppiness = 
+[2022-05-04T17:06:11.695240 15069] Config: (default) stats = true
+[2022-05-04T17:06:11.695240 15069] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-05-04T17:06:11.695240 15069] Config: (default) umask = 
+[2022-05-04T17:06:11.695485 15069] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/lib/python3/dist-packages/nuitka/build/include -I/usr/lib/python3/dist-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2022-05-04T17:06:11.695526 15069] Hostname: kashyyyk-virtualbox
+[2022-05-04T17:06:11.695543 15069] Working directory: /home/unai/ProgramacionASIX_CervantesUnai/Estructures/Exercicis/BlackJack.build
+[2022-05-04T17:06:11.695559 15069] Compiler type: gcc
+[2022-05-04T17:06:11.695880 15069] Source file: static_src/MetaPathBasedLoader.c
+[2022-05-04T17:06:11.695943 15069] Object file: static_src/MetaPathBasedLoader.o
+[2022-05-04T17:06:11.696055 15069] Trying direct lookup
+[2022-05-04T17:06:11.696173 15069] Looking for result name in /home/unai/.cache/Nuitka/ccache/4/a/af8puq6tpv6g55m5d4muj8sg44b11lsM
+[2022-05-04T17:06:11.699333 15067] Got result name from manifest
+[2022-05-04T17:06:11.699384 15067] Reading result /home/unai/.cache/Nuitka/ccache/b/a/a56t2ovioplfk0tefoe6mgb6u2uundoR
+[2022-05-04T17:06:11.699678 15067] Reading embedded entry #0 .o (553552 bytes)
+[2022-05-04T17:06:11.699695 15067] Writing to static_src/CompiledCodeHelpers.o
+[2022-05-04T17:06:11.700207 15069] Got result name from manifest
+[2022-05-04T17:06:11.700240 15069] Reading result /home/unai/.cache/Nuitka/ccache/7/0/b4v201gkl82nqfreda1kmgc26p051puR
+[2022-05-04T17:06:11.700453 15069] Reading embedded entry #0 .o (31168 bytes)
+[2022-05-04T17:06:11.700474 15069] Writing to static_src/MetaPathBasedLoader.o
+[2022-05-04T17:06:11.700585 15069] Succeeded getting cached result
+[2022-05-04T17:06:11.700604 15069] Result: cache hit (direct)
+[2022-05-04T17:06:11.700722 15069] Acquired lock /home/unai/.cache/Nuitka/ccache/7/0/stats.lock
+[2022-05-04T17:06:11.700820 15067] Succeeded getting cached result
+[2022-05-04T17:06:11.700833 15067] Result: cache hit (direct)
+[2022-05-04T17:06:11.700884 15067] Acquired lock /home/unai/.cache/Nuitka/ccache/b/a/stats.lock
+[2022-05-04T17:06:11.701011 15069] Releasing lock /home/unai/.cache/Nuitka/ccache/7/0/stats.lock
+[2022-05-04T17:06:11.701021 15067] Releasing lock /home/unai/.cache/Nuitka/ccache/b/a/stats.lock
+[2022-05-04T17:06:11.701036 15067] Unlink /home/unai/.cache/Nuitka/ccache/b/a/stats.lock
+[2022-05-04T17:06:11.701081 15069] Unlink /home/unai/.cache/Nuitka/ccache/7/0/stats.lock

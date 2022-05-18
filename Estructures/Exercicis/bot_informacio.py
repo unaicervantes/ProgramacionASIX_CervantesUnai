@@ -35,8 +35,9 @@ def elimina_frase(cadena,eliminar):
 
 def comprova_memoria():
     total,lliure,disponible =llegir_dades()
-    if int(total)//int(lliure) < 0.5:
+    if int(lliure)/int(total) < 0.5:
         return True
+    return False
 
 def main(ganxo):
     missatge = "La memòria es inferior a la meitat"
@@ -51,11 +52,8 @@ def main(ganxo):
             )
         if resposta.ok:
             resultat = "Missatge enviat"
-        else:
-            resultat = resultat + str(resposta.status_code ) + ": " + resposta.reason
     else:
-        print("No lo es")
-    
+        resultat = "La memòria no supera la meitat d'utilització."
     return resultat
 
 

@@ -1,0 +1,5 @@
+[
+    {"codi": "ca", "nom": "català", "textos" :  {"selecciona_opcio":"Selecciona una opció: ", "seleccio_dolenta": "Opció incorrecta", "selecciona_idioma": "Selecciona idioma: " ,"sortir": "Sortir", "llegir_usuaris": "Llegir usuaris", "afegir_usuari": "Afegir usuari", "canviar_idioma": "Canviar idioma"}},
+    {"codi": "es", "nom": "español", "textos" : {"selecciona_opcio":"Selecciona una opción: ", "seleccio_dolenta": "Opción incorrecta", "selecciona_idioma": "Selecciona idioma: " ,"sortir": "Salir", "llegir_usuaris": "Leer usuarios", "afegir_usuari": "Añadir usuarios", "canviar_idioma": "Cambiar idioma"}},
+    {"codi": "en", "nom": "english", "textos" : {"selecciona_opcio":"Make your selection: ", "seleccio_dolenta": "Bad input value", "selecciona_idioma": "Select language: " ,"sortir": "Exit", "llegir_usuaris": "Get users", "afegir_usuari": "Add user", "canviar_idioma": "Select language"}}
+]
